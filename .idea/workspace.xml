@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8ee71fd-91a0-4c87-8d87-fa40a258a55e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/ats-config-repo/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ats-config-repo/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ats_parrent/services/application-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ats_parrent/services/application-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ats_parrent/services/candidate-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ats_parrent/services/candidate-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ats_parrent/services/job-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ats_parrent/services/job-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ats_parrent/infras/config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ats_parrent/infras/config-server/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

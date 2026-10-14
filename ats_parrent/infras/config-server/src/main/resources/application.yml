@@ -9,6 +9,5 @@ spring:
     config:
       server:
         git:
-          uri: file:///D:/Ky8/MSS301
+          uri: file:///D:/Ky8/MSS301/ats-config-repo
           default-label: master
-          search-paths: ats-config-repo
