@@ -4,6 +4,8 @@ server:
 spring:
   application:
     name: candidate-service
+  config:
+    import: configserver:http://localhost:8888
   datasource:
     url: jdbc:postgresql://localhost:5432/candidate_sdb
     driver-class-name: org.postgresql.Driver
