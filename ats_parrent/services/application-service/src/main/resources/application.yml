@@ -7,8 +7,8 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/application_sdb
     driver-class-name: org.postgresql.Driver
-    username: dieunt
-    password:
+    username: postgres
+    password: devhoa
   jpa:
     hibernate:
       ddl-auto: update
