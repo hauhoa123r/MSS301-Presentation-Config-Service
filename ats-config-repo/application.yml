@@ -12,3 +12,13 @@ eureka:
     prefer-ip-address: true    # Dùng IP thay hostname - quan trọng trong Docker
     lease-renewal-interval-in-seconds: 10   # Heartbeat mỗi 10s (dev)
     lease-expiration-duration-in-seconds: 30  # Expiry sau 30s không có heartbeat
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    properties:
+      hibernate:
+        show_sql: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
