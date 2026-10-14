@@ -1,0 +1,14 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: config-server
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: file:///D:/Ky8/MSS301/FA26_MSS301_SE1946-JV
+          default-label: Hòa-Đẹp-Trai-Vũ-Trụ
+          search-paths: ats-config-repo
