@@ -1,0 +1,13 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: config-server
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: file:///E:/Nam/Learn/FA_26/MSS301/ats-config-serve/GitBackend-Presentation
+          default-label: master
