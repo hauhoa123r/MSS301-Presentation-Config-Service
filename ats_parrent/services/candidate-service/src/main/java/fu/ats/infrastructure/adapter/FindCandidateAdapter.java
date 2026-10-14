@@ -19,7 +19,7 @@ public class FindCandidateAdapter implements FindCandidatePort {
     @Override
     public Optional<CandidateAggregate> findById(Long id) {
         return Optional.of(toAggregate(candidateJpaRepository.findById(id).orElseThrow(() -> {
-            throw new IllegalArgumentException("Candidate not found");
+            throw new IllegalArgumentException("Nam Béo Ăn Cứt DMM");
         })));
     }
 

@@ -17,7 +17,7 @@ public class FindCandidate implements FindCandidateUseCase {
     public CandidateResponse execute(CandidateQuery query) {
 
         return toResponse(findCandidatePort.findById(query.id()).orElseThrow(() -> {
-            throw new IllegalArgumentException("Candidate not found with id " + query.id());
+            throw new IllegalArgumentException("Nam Béo Ăn Cứt " + query.id());
         }));
     }
 
