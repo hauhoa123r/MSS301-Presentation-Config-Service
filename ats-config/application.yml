@@ -1,0 +1,24 @@
+ats:
+  config:
+    source: centralized-config
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/  # Địa chỉ Eureka Server
+    fetch-registry: true      # Tải registry về local cache
+    register-with-eureka: true  # Đăng ký bản thân vào registry
+  instance:
+    prefer-ip-address: true    # Dùng IP thay hostname - quan trọng trong Docker
+    lease-renewal-interval-in-seconds: 10   # Heartbeat mỗi 10s (dev)
+    lease-expiration-duration-in-seconds: 30  # Expiry sau 30s không có heartbeat
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    properties:
+      hibernate:
+        show_sql: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
