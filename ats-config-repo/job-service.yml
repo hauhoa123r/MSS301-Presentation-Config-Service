@@ -1,6 +1,0 @@
-server:
-  port: 8081
-
-ats:
-  environment: development
-  message: Hello from ATS Config Server
