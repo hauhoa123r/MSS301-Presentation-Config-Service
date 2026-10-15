@@ -11,8 +11,12 @@ import fu.ats.repository.DepartmentRepository;
 import fu.ats.repository.JobRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
+import java.util.List;
 import java.util.UUID;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 @Service
 @RequiredArgsConstructor
@@ -53,4 +57,11 @@ public class JobServiceImpl implements JobService {
         return jobMapper.fromEntity(job);
     }
 
+    @Override
+    @Transactional(readOnly = true)
+    public List<JobResponse> findAll() {
+        return jobRepository.findAll().stream()
+                .map(jobMapper::fromEntity)
+                .toList();
+    }
 }
