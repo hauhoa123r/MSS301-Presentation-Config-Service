@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8ee71fd-91a0-4c87-8d87-fa40a258a55e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ats_parrent/services/job-service/src/main/java/fu/ats/controller/ConfigDemoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c8ee71fd-91a0-4c87-8d87-fa40a258a55e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -180,7 +177,7 @@
       <workItem from="1791967420537" duration="402000" />
       <workItem from="1791994126221" duration="359000" />
       <workItem from="1791994512584" duration="628000" />
-      <workItem from="1792022763302" duration="636000" />
+      <workItem from="1792022763302" duration="1004000" />
     </task>
     <servers />
   </component>
