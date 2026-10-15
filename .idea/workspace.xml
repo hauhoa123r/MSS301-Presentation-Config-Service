@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8ee71fd-91a0-4c87-8d87-fa40a258a55e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ats_parrent/infras/eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ats_parrent/infras/eureka-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ats_parrent/services/job-service/src/main/java/fu/ats/controller/DemoRefreshController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ats_parrent/services/job-service/src/main/java/fu/ats/controller/DemoRefreshController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug-reset-demo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/debug-reset-demo.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +54,7 @@
     "Spring Boot.ApiGateWay.executor": "Run",
     "Spring Boot.ApplicationServiceApplication.executor": "Run",
     "Spring Boot.CandidateServiceApplication.executor": "Run",
-    "Spring Boot.ConfigServerApplication.executor": "Run",
+    "Spring Boot.ConfigServerApplication.executor": "Debug",
     "Spring Boot.Eureka.executor": "Run",
     "Spring Boot.JobServiceApplication.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
@@ -203,11 +201,6 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/5.0.4/spring-cloud-config-server-5.0.4-sources.jar!/org/springframework/cloud/config/server/environment/JGitEnvironmentRepository.java</url>
-          <line>367</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/5.0.4/spring-cloud-config-server-5.0.4-sources.jar!/org/springframework/cloud/config/server/environment/JGitEnvironmentRepository.java</url>
           <line>374</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
@@ -215,11 +208,6 @@
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/5.0.4/spring-cloud-config-server-5.0.4-sources.jar!/org/springframework/cloud/config/server/environment/JGitEnvironmentRepository.java</url>
           <line>366</line>
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/5.0.4/spring-cloud-config-server-5.0.4-sources.jar!/org/springframework/cloud/config/server/environment/JGitEnvironmentRepository.java</url>
-          <line>365</line>
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/5.0.4/spring-cloud-config-server-5.0.4-sources.jar!/org/springframework/cloud/config/server/environment/JGitEnvironmentRepository.java</url>
@@ -250,21 +238,6 @@
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/5.0.4/spring-cloud-config-server-5.0.4-sources.jar!/org/springframework/cloud/config/server/environment/JGitEnvironmentRepository.java</url>
           <line>624</line>
           <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/5.0.4/spring-cloud-config-server-5.0.4-sources.jar!/org/springframework/cloud/config/server/environment/JGitEnvironmentRepository.java</url>
-          <line>677</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/5.0.4/spring-cloud-config-server-5.0.4-sources.jar!/org/springframework/cloud/config/server/environment/JGitEnvironmentRepository.java</url>
-          <line>679</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/5.0.4/spring-cloud-config-server-5.0.4-sources.jar!/org/springframework/cloud/config/server/environment/JGitEnvironmentRepository.java</url>
-          <line>749</line>
-          <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/5.0.4/spring-cloud-config-server-5.0.4-sources.jar!/org/springframework/cloud/config/server/environment/JGitEnvironmentRepository.java</url>
