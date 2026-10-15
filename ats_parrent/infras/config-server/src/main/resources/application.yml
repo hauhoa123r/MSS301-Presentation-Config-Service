@@ -10,6 +10,7 @@ spring:
     config:
       server:
         git:
-          uri: file:///D:/Ky8/MSS301/FA26_MSS301_SE1946-JV
-          default-label: Hòa-Đẹp-Trai-Vũ-Trụ
-          search-paths: ats-config
+          uri: file:///D:/Ky8/MSS301/FA26_MSS301_SE1946-JV/config-ats-repo
+          default-label: master
+#          default-label: Hòa-Đẹp-Trai-Vũ-Trụ
+#          search-paths: ats-config
