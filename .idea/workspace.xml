@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8ee71fd-91a0-4c87-8d87-fa40a258a55e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/ats_parrent/infras/config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ats_parrent/infras/config-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ats_parrent/services/job-service/src/main/java/fu/ats/controller/ConfigDemoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,18 +101,7 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Eureka">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="config-server" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="config-server" />
-      <option name="filePath" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.ConfigServerApplication">
     <configuration name="ApiGateWay" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="api-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="fu.ats.ApiGatewayApplication" />
@@ -190,6 +180,7 @@
       <workItem from="1791967420537" duration="402000" />
       <workItem from="1791994126221" duration="359000" />
       <workItem from="1791994512584" duration="628000" />
+      <workItem from="1792022763302" duration="636000" />
     </task>
     <servers />
   </component>
