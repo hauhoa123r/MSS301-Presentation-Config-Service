@@ -13,6 +13,8 @@ eureka:
     # Quan trọng: Eureka Server không cần đăng ký vào chính nó
     register-with-eureka: false
     fetch-registry: false
+    refresh:
+      enable: false
 
   server:
     # Tắt self-preservation trong dev - tránh Eureka giữ lại instance chết

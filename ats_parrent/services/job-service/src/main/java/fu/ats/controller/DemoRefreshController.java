@@ -7,15 +7,20 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Map;
+import java.util.UUID;
 
 @RestController
-@RequestMapping("/api/v1/config-demo")
+@RequestMapping("/api/v1/config-demo-refresh")
 public class DemoRefreshController {
 
     private final Environment environment;
 
+    private final String beanInstance =
+            UUID.randomUUID().toString();
+
     @Value("${ats.job.max-page-size}")
     private int maxPageSize;
+
 
     public DemoRefreshController(Environment environment) {
         this.environment = environment;
@@ -27,7 +32,9 @@ public class DemoRefreshController {
                 "environmentValue",
                 environment.getProperty("ats.job.max-page-size"),
                 "injectedValue",
-                maxPageSize
+                maxPageSize,
+                "beanInstance",
+                beanInstance
         );
     }
 }
