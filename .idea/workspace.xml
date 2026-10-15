@@ -28,6 +28,10 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/5.0.4/spring-cloud-config-server-5.0.4-sources.jar!/org/springframework/cloud/config/server/environment/JGitEnvironmentRepository.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/5.0.4/spring-cloud-config-server-5.0.4-sources.jar!/org/springframework/cloud/config/server/environment/NativeEnvironmentRepository.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -55,7 +59,7 @@
     "Spring Boot.ApiGateWay.executor": "Run",
     "Spring Boot.ApplicationServiceApplication.executor": "Run",
     "Spring Boot.CandidateServiceApplication.executor": "Run",
-    "Spring Boot.ConfigServerApplication.executor": "Debug",
+    "Spring Boot.ConfigServerApplication.executor": "Run",
     "Spring Boot.Eureka.executor": "Run",
     "Spring Boot.JobServiceApplication.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
@@ -181,11 +185,23 @@
       <workItem from="1791994126221" duration="359000" />
       <workItem from="1791994512584" duration="628000" />
       <workItem from="1792022763302" duration="5764000" />
+      <workItem from="1792044372002" duration="2917000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
