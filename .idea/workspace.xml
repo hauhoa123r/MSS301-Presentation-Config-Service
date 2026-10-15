@@ -226,23 +226,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/5.0.4/spring-cloud-config-server-5.0.4-sources.jar!/org/springframework/cloud/config/server/environment/JGitEnvironmentRepository.java</url>
-          <line>612</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/5.0.4/spring-cloud-config-server-5.0.4-sources.jar!/org/springframework/cloud/config/server/environment/JGitEnvironmentRepository.java</url>
-          <line>616</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/5.0.4/spring-cloud-config-server-5.0.4-sources.jar!/org/springframework/cloud/config/server/environment/JGitEnvironmentRepository.java</url>
-          <line>624</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/5.0.4/spring-cloud-config-server-5.0.4-sources.jar!/org/springframework/cloud/config/server/environment/JGitEnvironmentRepository.java</url>
           <line>618</line>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/5.0.4/spring-cloud-config-server-5.0.4-sources.jar!/org/springframework/cloud/config/server/environment/JGitEnvironmentRepository.java</url>
+          <line>614</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
