@@ -11,6 +11,10 @@ spring:
     driver-class-name: org.postgresql.Driver
     username: postgres
     password: devhoa
+eureka:
+  client:
+    refresh:
+      enable: false
 management:
   endpoints:
     web:
